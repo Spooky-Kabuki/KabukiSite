@@ -11,7 +11,23 @@ theme = "anatole-zola"
 default_language = "en"
 title = "Anatole"
 description = "A other zola theme"
+taxonomies = [
+    {name = "tags"},
+]
 
+[extra.social]
+github = "Spooky-Kabuki"
+twitter = ""
+facebook = ""
+instagram = ""
+dribbble = ""
+weibo = ""
+linkedin = ""
+flickr = ""
+
+[extra.show]
+tags = true
+links = true
 
 [markdown]
 # Whether to do syntax highlighting
