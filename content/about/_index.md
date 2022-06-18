@@ -4,4 +4,4 @@ template = "about.html"
 paginate_by = 0
 +++
 
-About this site
+This is a site being used to store my musings about homelabbing, embedded elecronics, programming, and whatever else comes to mind.
