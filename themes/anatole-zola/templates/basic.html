@@ -20,7 +20,7 @@
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   {% if config.generate_feed %}
     {% block rss %}
-      <link rel="alternate" type="application/rss+xml" title="{{ config.title }}" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+      <link rel="alternate" type="application/rss+xml" title="{{ config.extra.title }}" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
     {% endblock rss %}
   {% endif %}
 
@@ -32,7 +32,7 @@
   <div class="logo-title">
     <div class="title">
       <img src={{ get_url(path="images/logo@2x.png" ) }} style="width:127px;" alt="logo"/>
-      <h3><a href="{{ get_url(path="@/_index.md") }}">{{ config.title }}</a></h3>
+      <h3>{{ config.extra.title }}</h3>
       <div class="description">
         <p>{{ config.description }}</p>
       </div>
