@@ -8,7 +8,7 @@ theme = "anatole-zola"
 default_language = "en"
 
 # The URL the site will be built for
-base_url = "https://kabuki.dev"
+base_url = "https://staging.kabuki.dev"
 
 generate_feed = true
 
@@ -37,8 +37,8 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 mode = "dark"
-title = "Spooky Kabuki Labs"
-description = "Rantings about homelabbing, embedded software, and more"
+title = "Spooky Kabuki Labs 2"
+description = "Staging site"
 
 [languages.en.translations]
 about = "About"
